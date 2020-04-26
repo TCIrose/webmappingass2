@@ -1,8 +1,8 @@
 //leaflet map initializer
 var nmap = document.getElementById("map");
 var map = L.map(nmap, {
-    center: [-1.361792, 36.655583],
-    zoom: 14,
+    center: [-1.358609, 36.656285],
+    zoom: 17,
     trackResize: true,
     boxZoom: true,
     scrollWheelZoom: true,
