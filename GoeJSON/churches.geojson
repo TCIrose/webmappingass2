@@ -1,0 +1,17 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+
+        "type": "Feature",
+        "properties": {
+            "id": 1,
+            "name": "PCEA Enchoro Emuny Church",
+            "image": "images/pcea.jpg"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-1.357293, 36.657686]
+        }
+    }]
+}

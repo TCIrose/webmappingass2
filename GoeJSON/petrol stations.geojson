@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "name": "Delta Petrol Station"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.353237, 36.657809]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "name": "Be Energy Petrol Station"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.354220, 36.657524]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "name": "Kobil Petrol Station"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.359022, 36.656635]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Ilade Petrol Station"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.361198, 36.655971]
+            }
+        }
+    ]
+}
