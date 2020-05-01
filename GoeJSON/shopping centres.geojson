@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "name": "Milele Mall",
+                "others": "Tuskys Supermarket",
+                "image": "images/milele mall.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.358202, 36.65703]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "name": "Naivas Supermarket",
+                "image": "images/naivas.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.360946, 36.656529]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "name": "Ngong' Market",
+                "others": "Under Construction",
+                "image": "images/Ngong market.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.359705, 36.656766]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "Green Star  mini-market"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.361266, 36.655933]
+            }
+        }
+    ]
+}

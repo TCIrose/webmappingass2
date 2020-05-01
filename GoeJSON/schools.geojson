@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "name": "Kenvic Pri. School"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.357599, 36.656605]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "name": "PCEA Enchoro Pri. School"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.356953, 36.657175]
+            }
+        }
+    ]
+}

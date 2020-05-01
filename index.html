@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <title>Ngong' Town</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
-    <link rel="stylesheet" href="images.css">
+    <link rel="stylesheet" href="ngong.css">
 </head>
 
 <body>
-    <div id="map" style="width: 1350px; height: 640px"></div>
+    <header>
+        <h2>NGONG' TOWN <small>Kajiado County, Kenya</small></h2>
+    </header>
+    <div class="column">
+        <div class="row" style="height: 100%">
+            <button class="button" onclick="showBanks()">Banks</button><br><br>
+            <button class="button" onclick="showChurches()">Churches</button><br><br>
+            <button class="button" onclick="showPS()">Petrol Stations</button><br><br>
+            <button class="button" onclick="showSCh()">Schools</button><br><br>
+            <button class="button" onclick="showSCtrs()">Shopping Centres</button>
+        </div>
+        <div class="row1" style="height: 100%">
+            <div id="map" style="width: 1150px; height: 580px;"></div>
+        </div>
+
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
     <script src="ngong.js"></script>
 </body>
