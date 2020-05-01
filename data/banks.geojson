@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "id": 1,
+            "name": "Equity Bank"
+        },
+        "geometry": { "type": "Point", "coordinates": [36.656285, -1.358609] }
+    }, {
+        "type": "Feature",
+        "properties": { "id": 2, "name": "Chase Bank" },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [36.657475, -1.358102]
+        }
+    }, {
+        "type": "Feature",
+        "properties": { "id": 3, "name": "Barclays Bank" },
+        "geometry": { "type": "Point", "coordinates": [36.655379, -1.362136] }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "id": 4,
+            "name": "Co-operative Bank of Kenya"
+        },
+        "geometry": { "type": "Point", "coordinates": [36.655549, -1.361771] }
+    }]
+}

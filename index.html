@@ -6,6 +6,8 @@
     <title>Ngong' Town</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
     <link rel="stylesheet" href="ngong.css">
+    <!--Import jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -13,21 +15,25 @@
         <h2>NGONG' TOWN <small>Kajiado County, Kenya</small></h2>
     </header>
     <div class="column">
+        <!--Buttons for interactivity-->
         <div class="row" style="height: 100%">
-            <button class="button" onclick="showBanks()">Banks</button><br><br>
-            <button class="button" onclick="showChurches()">Churches</button><br><br>
-            <button class="button" onclick="showPS()">Petrol Stations</button><br><br>
-            <button class="button" onclick="showSCh()">Schools</button><br><br>
-            <button class="button" onclick="showSCtrs()">Shopping Centres</button>
+            <button class="button" id="sb">Banks</button><br><br>
+            <button class="button" id="ch">Churches</button><br><br>
+            <button class="button" id="ps">Petrol Stations</button><br><br>
+            <button class="button" id="sch">Schools</button><br><br>
+            <button class="button" id="shcs">Shopping Centres</button>
         </div>
         <div class="row1" style="height: 100%">
-            <div id="map" style="width: 1150px; height: 580px;"></div>
+            <!--map  element-->
+            <div id="map" style="width: 1150px; height: 600px;"></div>
         </div>
 
     </div>
-
+    <!--import leaflet javascript library-->
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <!--Import page js-->
     <script src="ngong.js"></script>
+
 </body>
 
 </html>
